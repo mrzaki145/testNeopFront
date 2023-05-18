@@ -32,7 +32,7 @@
     font-size: 2rem;
     color: var(--white);
     text-decoration: none;
-    transition: color var(--trans);
+    transition: color var(--animation);
 
     &:hover {
       color: var(--gray);
@@ -57,7 +57,6 @@
     text-align: center;
     font-weight: 900;
     font-size: 6.5rem;
-    // line-height: 1;
     letter-spacing: -5px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, -5px 105%);
   }
@@ -146,7 +145,6 @@
   .gradient-bg {
     --blur-max: 425.726px;
     --blur-min: 374.922px;
-    // opacity: 0.4;
     transform: scale(1.25);
   }
 }
@@ -218,7 +216,6 @@
 
   position: absolute;
   width: 100%;
-  // inset: 0;
   inset-inline: 0;
   z-index: -1;
   opacity: 0.25;
