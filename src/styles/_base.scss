@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font: 400 1rem / 1.5 "Frutiger LT Arabic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  color: var(--white);
+  background: var(--dark-600);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h3 {
+  margin-block-end: 2rem;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}

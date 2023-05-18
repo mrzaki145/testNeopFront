@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --white-1: hsla(0, 0%, 100%, 0.1);
+  --dark-400: #0c1028;
+  --dark-600: #070720;
+  --gray: #b2b2b2;
+  --primary: #52b0ac;
+
+  --anim-duration: 0.3s;
+  --anim-timing-function: ease-in-out;
+  --trans: var(--anim-duration) var(--anim-timing-function);
+}
