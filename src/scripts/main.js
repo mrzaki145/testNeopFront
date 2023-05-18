@@ -17,7 +17,7 @@ introTL.from(".hero__shape", {
 introTL.fromTo(
   words,
   {
-    y: 100,
+    y: -100,
     opacity: 0,
   },
   {

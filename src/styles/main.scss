@@ -210,69 +210,69 @@
 
 // ---------------------------------
 
-.gradient-bg {
-  --blur-max: 331px;
-  --blur-min: 291.5px;
+// .gradient-bg {
+//   --blur-max: 331px;
+//   --blur-min: 291.5px;
 
-  position: absolute;
-  width: 100%;
-  inset-inline: 0;
-  z-index: -1;
-  opacity: 0.25;
-  transform: translate3d(0, 0, 0);
-  will-change: transform;
+//   position: absolute;
+//   width: 100%;
+//   inset-inline: 0;
+//   z-index: -1;
+//   opacity: 0.25;
+//   transform: translate3d(0, 0, 0);
+//   will-change: transform;
 
-  > span {
-    position: absolute;
-    display: inline-block;
-  }
+//   > span {
+//     position: absolute;
+//     display: inline-block;
+//   }
 
-  > span:nth-child(1),
-  > span:nth-child(2) {
-    background: #d239cd;
-    filter: blur(var(--blur-max));
-  }
+//   > span:nth-child(1),
+//   > span:nth-child(2) {
+//     background: #d239cd;
+//     filter: blur(var(--blur-max));
+//   }
 
-  > span:nth-child(1) {
-    inset-block-start: 291px;
-    inset-inline-start: 70px;
-    width: 385.92px;
-    height: 378.48px;
-  }
-  > span:nth-child(2) {
-    inset-block-start: 161px;
-    inset-inline-start: 400px;
-    width: 439.18px;
-    height: 430.72px;
-  }
-  > span:nth-child(3) {
-    inset-block-start: -80px;
-    inset-inline-start: 630px;
-    width: 371.84px;
-    height: 371.84px;
-    background: #f0bd1d;
-  }
+//   > span:nth-child(1) {
+//     inset-block-start: 291px;
+//     inset-inline-start: 70px;
+//     width: 385.92px;
+//     height: 378.48px;
+//   }
+//   > span:nth-child(2) {
+//     inset-block-start: 161px;
+//     inset-inline-start: 400px;
+//     width: 439.18px;
+//     height: 430.72px;
+//   }
+//   > span:nth-child(3) {
+//     inset-block-start: -80px;
+//     inset-inline-start: 630px;
+//     width: 371.84px;
+//     height: 371.84px;
+//     background: #f0bd1d;
+//   }
 
-  > span:nth-child(3),
-  > span:nth-child(4),
-  > span:nth-child(5) {
-    filter: blur(var(--blur-min));
-  }
+//   > span:nth-child(3),
+//   > span:nth-child(4),
+//   > span:nth-child(5) {
+//     filter: blur(var(--blur-min));
+//   }
 
-  > span:nth-child(4),
-  > span:nth-child(5) {
-    background: #1bacbc;
-  }
-  > span:nth-child(4) {
-    inset-block-start: 370px;
-    inset-inline-start: 800px;
-    width: 321.67px;
-    height: 321.67px;
-  }
-  > span:nth-child(5) {
-    inset-block-start: 220px;
-    inset-inline-start: 840px;
-    width: 371.84px;
-    height: 371.84px;
-  }
-}
+//   > span:nth-child(4),
+//   > span:nth-child(5) {
+//     background: #1bacbc;
+//   }
+//   > span:nth-child(4) {
+//     inset-block-start: 370px;
+//     inset-inline-start: 800px;
+//     width: 321.67px;
+//     height: 321.67px;
+//   }
+//   > span:nth-child(5) {
+//     inset-block-start: 220px;
+//     inset-inline-start: 840px;
+//     width: 371.84px;
+//     height: 371.84px;
+//   }
+// }
