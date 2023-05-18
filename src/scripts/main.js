@@ -36,7 +36,7 @@ const carouselTL = gsap.timeline({
   scrollTrigger: {
     pin: true,
     trigger: ".features",
-    start: "top -5%",
+    start: "top top",
     end: "+=250%",
     scrub: 0.25,
   },
@@ -48,7 +48,7 @@ carouselTL.fromTo("#carousel", { rotateY: -20 }, { rotateY: -250 });
 const aboutUsTL = gsap.timeline({
   scrollTrigger: {
     trigger: ".about-us",
-    start: "top 30%",
+    start: "top 25%",
   },
 });
 
