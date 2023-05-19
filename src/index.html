@@ -15,6 +15,10 @@
   </head>
 
   <body>
+    <div class="shape__wrapper">
+      <img id="shape" class="shape" src="/assets/images/shape.png" alt="" />
+    </div>
+
     <main id="root">
       <nav class="nav" aria-label="primary navigation">
         <ul class="nav__list">
@@ -22,7 +26,7 @@
             <a href="/" class="nav__link"
               ><img
                 src="/assets/images/logo.png"
-                width="65"
+                width="60"
                 alt="عجلان واخوانه"
             /></a>
           </li>
@@ -39,10 +43,6 @@
 
         <div class="hero__content">
           <h1 class="hero__title">ابتكار الحلول التسويقية</h1>
-
-          <figure class="hero__shape shape" aria-hidden="true">
-            <img height="740" src="/assets/images/shape.png" alt="" />
-          </figure>
         </div>
       </header>
       <!-- /hero -->
@@ -142,34 +142,23 @@
           <span></span><span></span><span></span><span></span><span></span>
         </div>
 
-        <figure>
-          <img
-            class="about-us__shape shape"
-            height="740"
-            src="/assets/images/shape.png"
-            alt=""
-          />
-
-          <figcaption class="about-us__text">
-            <p>
-              <strong id="about-us-label"
-                >عجلان واخوانه للحلول التسويقية</strong
-              >
-              تقودك بفهم عميق للثقافة والتاريخ والاقتصاد لتصنع المستقبل في مجالك
-              سابقاً الآخرين.
-            </p>
-            <p>
-              نحن على أتم الاستعداد لإدارة رحلتك التسويقية من خلال البحث
-              والتخطيط والتنفيذ.
-            </p>
-          </figcaption>
-        </figure>
+        <div class="about-us__text">
+          <p>
+            <strong id="about-us-label">عجلان واخوانه للحلول التسويقية</strong>
+            تقودك بفهم عميق للثقافة والتاريخ والاقتصاد لتصنع المستقبل في مجالك
+            سابقاً الآخرين.
+          </p>
+          <p>
+            نحن على أتم الاستعداد لإدارة رحلتك التسويقية من خلال البحث والتخطيط
+            والتنفيذ.
+          </p>
+        </div>
       </section>
       <!-- /about-us -->
 
       <section class="clients section" aria-hidden="true">
         <header class="section__header">
-          <h2 class="clients__title">شركاؤنا</h2>
+          <h2 class="section__title">شركاؤنا</h2>
         </header>
 
         <div class="marquee">
@@ -244,9 +233,7 @@
 
       <section class="contact-us section">
         <header class="section__header">
-          <h2 class="contact-us__title">
-            نحن متواجدون للإجابة على الاستفسارات
-          </h2>
+          <h2 class="section__title">نحن متواجدون للإجابة على الاستفسارات</h2>
         </header>
 
         <div class="contact-us__content">
@@ -308,7 +295,11 @@
           </div>
 
           <figure aria-hidden="true">
-            <img class="shape" src="/assets/images/shape.png" alt="" />
+            <img
+              class="contact-us__shape shape"
+              src="/assets/images/shape.png"
+              alt=""
+            />
           </figure>
         </div>
       </section>

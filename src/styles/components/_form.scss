@@ -12,7 +12,7 @@
     border-block-end: 1px solid var(--white-1);
     padding-block-end: 1.25rem;
     resize: none;
-    transition: border-color var(--trans);
+    transition: border-color var(--animation);
 
     &::placeholder {
       color: var(--gray);
