@@ -9,11 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 const introTL = gsap.timeline();
 const { words } = SplitType.create(".hero__title", { types: "words" });
 
-// introTL.from(".hero__shape", {
-//   scale: 0,
-//   opacity: 0,
-// });
-
 introTL.fromTo(
   words,
   {
@@ -34,10 +29,11 @@ introTL.fromTo(
 const carouselTL = gsap.timeline({
   scrollTrigger: {
     pin: true,
+    pinSpacer: false,
     trigger: ".features",
     start: "top top",
     end: "+=250%",
-    scrub: 0.25,
+    scrub: 0.15,
   },
 });
 carouselTL.fromTo("#carousel", { rotateY: -20 }, { rotateY: -250 });
@@ -48,7 +44,7 @@ const marqueeTL = gsap.timeline({
   scrollTrigger: {
     trigger: ".clients",
     start: "top bottom",
-    scrub: 2,
+    scrub: 2.5,
   },
 });
 
@@ -65,6 +61,7 @@ const shapeTL = gsap.timeline({
     scrub: 2,
     start: "top 25%",
     end: "bottom bottom",
+
     onLeave() {
       const { top, height } = offset(shapeWrapper);
       gsap.set(shapeWrapper, {
@@ -88,10 +85,10 @@ const shapeTL = gsap.timeline({
 introTL.from(
   shape,
   {
-    scale: 0,
+    scale: 1.5,
     opacity: 0,
   },
-  "<25%"
+  "<5%"
 );
 
 shapeTL.to(shape, {
@@ -111,8 +108,8 @@ gsap.from(".contact-us__shape", {
   xPercent: -50,
   opacity: 0,
   scrollTrigger: {
-    trigger: ".contact-us",
-    start: "top top",
+    trigger: ".contact-us header",
+    start: "top 20%",
   },
 });
 
